@@ -15,8 +15,8 @@
 
 /* Local config */
 #ifdef USING_ESP_8266
-char ssid[] = "IOT_N";
-char pass[] = "ftelecomiot";
+char ssid[] = "YourSSID";
+char pass[] = "YourPASS";
 WiFiUDP Udp;
 SoftwareSerial loraStream(12, 13);
 #else
